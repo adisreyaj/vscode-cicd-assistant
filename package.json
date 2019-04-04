@@ -21,6 +21,7 @@
 		"dockerfile",
 		"jenkinsfile"
 	],
+	"icon": "images/logo.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/adisreyaj/vscode-cicd-assistant.git"
