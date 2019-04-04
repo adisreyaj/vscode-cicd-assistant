@@ -1,0 +1,51 @@
+{
+	"name": "cicd-assistant",
+	"displayName": "CICD Assistant",
+	"description": "Your Assistant for the the next CICD project. Helps the process of creating deployment files for your project.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.32.0"
+	},
+	"author": {
+		"name": "Adithya Sreyaj",
+		"email": "adi.sreyaj@gmail.com",
+		"url": "https://sreyaj.com"
+	},
+	"publisher": "adisreyaj",
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"cicd",
+		"sonarqube",
+		"dockerfile",
+		"jenkinsfile"
+	],
+	"activationEvents": [
+		"onCommand:extension.createSonarFile"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [{
+			"command": "extension.createSonarFile",
+			"title": "Create Sonar Properties File"
+		}]
+	},
+	"scripts": {
+		"vscode:prepublish": "webpack --mode production",
+		"compile": "webpack --mode none",
+		"watch": "webpack --mode none --watch",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test-compile": "tsc -p ./"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"tslint": "^5.12.1",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42",
+		"webpack": "^4.29.6",
+		"webpack-cli": "^3.3.0",
+		"ts-loader": "^5.3.3"
+	}
+}
