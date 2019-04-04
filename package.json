@@ -21,6 +21,10 @@
 		"dockerfile",
 		"jenkinsfile"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/adisreyaj/vscode-cicd-assistant.git"
+	},
 	"activationEvents": [
 		"onCommand:extension.createSonarFile"
 	],
