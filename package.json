@@ -2,7 +2,7 @@
   "name": "cicd-assistant",
   "displayName": "CICD Assistant",
   "description": "Your Assistant for the the next CICD project. Helps the process of creating deployment files for your project.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.32.0"
   },

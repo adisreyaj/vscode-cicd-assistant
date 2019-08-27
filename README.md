@@ -3,8 +3,8 @@
 An all-in-one extension for VSCode that will assist you in the CICD journey. Helps you in creating:
 
 1. Sonar properties file (Angular and Node).
+1. Dockerfile(Angular and Node) based on Alpine Linux.
 1. Jenkinsfile(future release).
-1. Dockerfile(future release).
 
 ## How to Use
 
