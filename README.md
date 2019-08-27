@@ -6,6 +6,12 @@ An all-in-one extension for VSCode that will assist you in the CICD journey. Hel
 1. Dockerfile(Angular and Node) based on Alpine Linux.
 1. Jenkinsfile(future release).
 
+## Features
+
+1. Dockerfiles are based on Alpine Linux thus making the the size very minimum
+1. Highly optimized Dockerfile for faster rebuilds
+1. Multistage build for Angular
+
 ## How to Use
 
 1. Install the Extension and Make sure it is activated.
